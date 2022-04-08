@@ -1,0 +1,129 @@
+body {
+    background-color: #f2f2f2;
+}
+#first-page {
+    display: flex;
+    
+    gap: 1rem;
+}
+.download {
+    display: flex;
+}
+.group {
+    font-family: Red Hat Display;
+    font-weight: 900, Black;
+    font-style: normal;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: Center;
+    color: #28283d;
+}
+.meet {
+    font-family: Red Hat Display;
+    font-weight: 500, Medium;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 26px;
+    text-align: center;
+    color: #87879d;
+}
+.down {
+    border: 1px solid white;
+    border-radius: 29px;
+    padding-left: 54px;
+    padding-top: 35px;
+    background-color: #4d96a9;
+    color: white;
+    display: solid;
+    width: 193px;
+    height: 58px;
+}
+.what {
+    border: 1px solid white;
+    border-radius: 29px;
+    padding-left: 54px;
+    padding-top: 35px;
+    background-color: #855fb1;
+    color: white;
+    display: solid;
+    width: 139px;
+    height: 58px;
+}
+#second-page {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    flex-shrink: 1px;
+    margin: 50px;
+    padding-left: 110px;
+    padding-top: 50px;
+}
+#third-page {
+    text-align: center;
+    display: solid;
+}
+.build {
+    color: #4d96a9;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 26px;
+    font-weight: 900, black;
+}
+#fourth-page {
+    border: 1px solid #4d96a9;
+    background-color: #4d96a9;
+    display: flex;
+    justify-content: space-around;
+    padding-left: 90px;
+    padding-top: 35px;
+    margin-top: 100px;
+    gap: 10rem;    
+    justify-items: center;
+}
+.experience {
+    color: white;
+    font-family: Red Hat Display;
+    font-size: 40px;
+    line-height: 44px;
+    font-style: normal;
+    font-weight: 900, black;
+    width: 350px;
+    height: 88px;
+}
+.connected {
+    color: white;
+    font-family: Red Hat Display;
+    font-size: 16px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 500, medium;
+    width: 350px;
+    height: 78px;
+}
+.dow {
+    border: 1px solid #855fb1;
+    border-radius: 29px;
+    background-color: #855fb1;
+    width: 240px;
+    height: 58px;
+}
+.what-1 {
+    color: white;
+    font-family: Red Hat Display;
+    font-size: 16px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 900, black;
+    padding-left: 54px;
+    padding-top: 2px;
+}
+@media only screen and (max-width: 500px) {
+    #fourth-page {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
